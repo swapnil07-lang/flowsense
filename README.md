@@ -7,6 +7,7 @@
 </p>
 
 ---
+This project aligns with real-world event management by providing scalable crowd monitoring and insights.
 
 ## 📌 Overview
 **FlowSense AI** is a cloud-deployed web application that simulates crowd intelligence for live events.  
@@ -33,6 +34,14 @@ It demonstrates a full-stack workflow — from backend API development to fronte
 | Containerization | Docker |
 
 ---
+## ☁️ Google Cloud Integration
+
+This project uses:
+- Google Cloud Run for deployment
+- Container Registry for image storage
+
+Deployment command:
+gcloud run deploy
 
 ## 📂 Project Structure
 flowsense/

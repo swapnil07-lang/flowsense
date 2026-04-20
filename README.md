@@ -35,3 +35,51 @@ It demonstrates a full-stack workflow — from backend API development to fronte
 ---
 
 ## 📂 Project Structure
+flowsense/
+│── server.js # Backend server
+│── script.js # Frontend logic
+│── index.html # UI
+│── style.css # Styling
+│── package.json # Dependencies
+│── Dockerfile # Container config
+
+---
+
+## 🔗 API Endpoints
+
+### 🟢 Health Check
+
+GET /
+**Response**
+Server is running 🚀
+
+---
+
+### 🔵 Crowd Data API
+GET /data
+**Response**
+```json
+{
+  "status": "success",
+  "data": ["crowd", "analytics", "flow"]
+}
+
+🌐 Live Deployment
+
+🔗 Cloud Run URL:
+👉https://flowsense-backend-1086829896855.asia-south1.run.app
+
+📈 Future Enhancements
+📊 Real-time dashboard visualization
+🤖 AI-based crowd prediction models
+🗄️ Database integration
+🔐 Authentication system
+
+🤝 Contribution
+
+This project was developed as part of a hackathon.
+Contributions, suggestions, and improvements are welcome!
+
+👨‍💻 Author
+
+Swapnil Gaur

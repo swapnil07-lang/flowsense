@@ -16,7 +16,7 @@
   <div class="particles" id="particles"></div>
 
   <!-- Header -->
-  <header class="header">
+  <header class="header" role="banner">
     <div class="header-inner">
       <div class="brand">
         <div class="brand-icon">
@@ -43,10 +43,10 @@
           <span class="live-dot"></span>
           Live Monitoring
         </div>
-        <div class="timestamp" id="clock">--:--:--</div>
+        <div class="timestamp" id="clock" aria-live="polite">--:--:--</div>
         <span class="last-updated" id="lastUpdated">Initialising…</span>
         <span class="auto-countdown" id="autoCountdown">Auto-refresh in 5s</span>
-        <button class="refresh-btn" id="refreshBtn" onclick="refreshData()">
+        <button class="refresh-btn" id="refreshBtn" onclick="refreshData()" aria-label="Refresh crowd data">
           <svg id="refreshIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
             <path d="M21 3v5h-5"/>
@@ -60,7 +60,7 @@
   </header>
 
   <!-- Main Dashboard -->
-  <main class="dashboard">
+  <main class="dashboard" role="main">
 
     <!-- Summary Stats Bar -->
     <section class="stats-bar">
@@ -192,7 +192,7 @@
     </div>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <p>© 2026 FlowSense &mdash; AI Crowd Intelligence Platform &nbsp;|&nbsp; Powered by Real-Time Sensor Data</p>
   </footer>
 
